@@ -1,0 +1,349 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: #47494b;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input:focus,
+textarea:focus {
+  outline: none !important;
+  border-color: #f3f3f3;
+  box-shadow: 0 0 5px #f3f3f3;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  background: #fff;
+  width: 100%;
+  display: flex;
+  max-width: 55em;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.8em;
+  box-shadow: 0px 0px 15px 0px rgb(21, 21, 21);
+  overflow: hidden;
+}
+
+.reset-form-container {
+  max-width: 26em;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 55em;
+  width: 100%;
+  height: 100%;
+}
+
+.login-landing-img {
+  background-image: url(../images/sign-in-user.jpg);
+  background-position: right center;
+  height: 40em;
+  overflow: hidden;
+  width: 100%;
+  flex: 1;
+  background-size: cover;
+}
+
+.login-reset-img {
+  background-image: url(../images/new-password.jpg);
+  height: 40em;
+  overflow: hidden;
+  width: 100%;
+  flex: 1;
+  background-size: cover;
+}
+
+.form-inner-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.back-btn {
+  background: transparent;
+  border: none;
+  font-size: inherit;
+  position: absolute;
+  right: 2em;
+  top: 2em;
+  color: #7f7f7f;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.form-title-logo {
+  margin-top: 1em;
+  background-image: url(../images/logo.svg);
+  background-position: center;
+  width: 18em;
+  background-size: contain;
+  height: 4em;
+  background-repeat: no-repeat;
+  max-width: 18em;
+}
+
+.form-reset-logo {
+  background-image: url(../images/reset-password.svg);
+  height: 100px;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.form-reset-title {
+  font-size: 1.2em;
+  margin-top: 1.5em;
+  color: #47494b;
+}
+
+.form-reset-description {
+  margin: 1em 3em;
+  text-align: center;
+  color: #757778;
+  font-size: 0.9em;
+}
+
+.form-label {
+  display: none;
+}
+
+.form-title {
+  font-weight: 600;
+  text-align: center;
+  color: #47494b;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.form-title-subtext {
+  font-weight: 300;
+  margin: 1em 4em;
+  text-align: center;
+  color: #7d7f80;
+  font-size: 0.9em;
+}
+
+.form-control {
+  width: 325px;
+  max-width: 325px;
+  height: 2.5em;
+  padding: 0 1em;
+  border: none;
+  background: #f3f3f3;
+  border-radius: 0.4em;
+  margin: 1em 1em 0;
+  font-size: 1em;
+  font-weight: 200;
+  font-family: "Open Sans";
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #a3a3a3;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #a3a3a3;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #a3a3a3;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #a3a3a3;
+}
+
+.form-options {
+  display: flex;
+  width: 355px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.form-forgot-password {
+  font-family: "Montserrat";
+  color: #F2CE45;
+  font-size: 0.9em;
+}
+
+.button {
+  height: 2.5em;
+  border: none;
+  background-color: #F2CE45;
+  width: 355px;
+  max-width: 355px;
+  font-size: 1em;
+  border-radius: 0.4em;
+  color: #fff;
+  font-family: "Open Sans";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.button.disabled {
+  background-color: #bebebe;
+  pointer-events: none;
+}
+
+.button-reset {
+  margin-top: 1.5em;
+  width: 100px;
+}
+
+.button-update-password {
+  margin-top: 1.5em;
+}
+
+.disclaimer {
+  font-size: 0.8em;
+  margin-top: 3em;
+  color: #c8c8c8;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.disclaimer-link {
+  color: #a5a5a5;
+  font-weight: 800;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.message-text {
+  display: none;
+}
+
+.message-container {
+  background-color: #eaffe6;
+  width: 325px;
+  text-align: center;
+  padding: 0.5em 1em;
+  color: #72d477;
+  border-radius: 0.4em;
+  margin: 1em 0 0;
+  display: none;
+}
+
+.message-container.error {
+  background-color: #fcefef;
+  color: #ef8171;
+}
+
+.message-container.warning {
+  background-color: #fff3e6;
+  color: #db916b;
+}
+
+.checkbox-container {
+  font-family: "Montserrat";
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  font-size: 0.9em;
+  color: #979797;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  border-radius: 0.2em;
+  border: 1px solid #979797;
+  transition: background 200ms ease;
+}
+
+.checkbox-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #979797;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkbox-container .checkmark:after {
+  left: 5px;
+  top: 0px;
+  width: 3px;
+  height: 9px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@media screen and (max-width: 900px) {
+  .login-landing-img,
+  .login-reset-img {
+    display: none;
+  }
+
+  .form-container {
+    max-width: 30em;
+  }
+
+  .form-inner-content {
+    padding: 3em 1em;
+  }
+}
+
+.instruction {
+  font-size: 0.9em;
+  color: #47494b;
+  margin: 1em 3em;
+  text-align: center;
+}
+
+.instruction-link {
+  color: #F2CE45;
+}

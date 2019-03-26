@@ -1,0 +1,44 @@
+version: "3"
+
+volumes:
+  mysql_data:
+    driver: local
+
+services:
+  web:
+    build: .
+    ports:
+     - "5000:80"
+    depends_on:
+      - keycloak
+  mysql:
+    image: mysql:5.7
+    volumes:
+      - mysql_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: keycloak
+      MYSQL_USER: keycloak
+      MYSQL_PASSWORD: password
+  keycloak:
+    image: jboss/keycloak
+    volumes: 
+      - ./starter/:/opt/jboss/keycloak/themes/starter/
+    environment:
+      DB_VENDOR: MYSQL
+      DB_ADDR: mysql
+      DB_DATABASE: keycloak
+      DB_USER: keycloak
+      DB_PASSWORD: password
+      KEYCLOAK_USER: admin
+      KEYCLOAK_PASSWORD: admin
+    ports:
+      - 8080:8080
+    depends_on:
+      - mysql
+      - maildev
+  maildev:
+    image: djfarrelly/maildev
+    ports:
+    - "8081:80"
+    - "25"
