@@ -293,7 +293,7 @@
                               <div style="color: #6d6e70; line-height: 140%; text-align: left; word-wrap: break-word;">
                                 <p style="font-size: 14px; line-height: 140%;"><span style="font-family: 'Open Sans', sans-serif; font-size: 18px; line-height: 25.2px;">Please do not hesitate to contact our support team if you need assistance.</span></p>
                                 <p style="font-size: 14px; line-height: 140%;"><span style="font-family: 'Open Sans', sans-serif; font-size: 18px; line-height: 25.2px;">&nbsp;</span></p>
-                                <p style="font-size: 14px; line-height: 140%;"><span style="font-family: 'Open Sans', sans-serif; font-size: 18px; line-height: 25.2px;">The Lesson Desk Team</span></p>
+                                <p style="font-size: 14px; line-height: 140%;"><span style="font-family: 'Open Sans', sans-serif; font-size: 18px; line-height: 25.2px;">The Fast Banana Team</span></p>
                               </div>
 
                             </td>

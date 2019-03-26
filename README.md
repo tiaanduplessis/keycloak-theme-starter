@@ -1,6 +1,6 @@
 # keycloak-theme-starter
 
-> Lesson Desk theme for [keycloak](https://www.keycloak.org/).
+> Starter theme for [keycloak](https://www.keycloak.org/).
 
 ## Setup
 
@@ -20,7 +20,7 @@ To use it in your Keycloak realm:
 3. Go to the “Themes” tab in “Realm Settings”
 4. Select “starter” as your login theme, and click on “Save”
 
-The theme will now be used for all Keycloak log in screens on your realm - including logging in to the admin console. If you sign out, you should see the Lesson Desk themed log in screen.
+The theme will now be used for all Keycloak log in screens on your realm - including logging in to the admin console. If you sign out, you should see the themed log in screen.
 
 ### Emails
 

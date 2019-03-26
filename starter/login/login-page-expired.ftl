@@ -31,7 +31,7 @@
                     </p>
 
                     <p class="disclaimer">
-                    By signing in, you agree to Lesson Desk's<br>
+                    By signing in, you agree to Fast Banana's<br>
                     <a class="disclaimer-link" href="https://www.fastbanana.com/terms#terms" target="_blank">Terms & Conditions</a> & 
                     <a class="disclaimer-link" href="https://www.fastbanana.com/terms#policy" target="_blank">Privacy Policy</a>.
                 </p>

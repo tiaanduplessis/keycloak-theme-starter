@@ -18,7 +18,7 @@
                     <div class="form-reset-logo"></div>
 
                     <#--  <p class="form-reset-description">${msg("emailInstruction")}</p>  -->
-                    <p class="form-reset-description">Enter the username or email address associated with your Lesson Desk account and we will send you an email with password reset instructions.</p>
+                    <p class="form-reset-description">Enter the username or email address associated with your Fast Banana account and we will send you an email with password reset instructions.</p>
 
                     <p class="message-container js-message-container">
                         
