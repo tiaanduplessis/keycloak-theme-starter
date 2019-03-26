@@ -50,4 +50,8 @@ It doesn’t matter what e-mail address you add, as all e-mails will be caught b
 7. Visit [MailDev](http://localhost:8081). You should see a reset password e-mail from Keycloak.
 
 
+## License
+
+MIT
+
 
